@@ -1,7 +1,3 @@
-activate_conda() { export PATH=~/anaconda/bin:$PATH }
-activate_conda2() { export PATH=~/anaconda2/bin:$PATH }
-
-
 # http://apple.stackexchange.com/questions/12161/os-x-terminal-must-have-utilities
 
 update() {
