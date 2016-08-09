@@ -1,2 +1,5 @@
 export JAVA_HOME="`/usr/libexec/java_home -v 1.8`"
-export PATH="/usr/local/bin:$PATH"
+
+# Circumvent https://github.com/direnv/direnv/issues/210
+#
+shell_session_update() { :; }

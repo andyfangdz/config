@@ -27,3 +27,8 @@ man() {
     LESS_TERMCAP_us=$(printf "\e[1;32m") \
     man "$@"
 }
+
+bootcamp() {
+    sudo /usr/sbin/bless -mount /Volumes/BOOTCAMP -setBoot  --nextonly  
+    sudo /sbin/shutdown -r now
+}
