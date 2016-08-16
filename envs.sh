@@ -1,4 +1,4 @@
-export JAVA_HOME="`/usr/libexec/java_home -v 1.8`"
+export EDITOR="subl -w"
 
 # Circumvent https://github.com/direnv/direnv/issues/210
 #
