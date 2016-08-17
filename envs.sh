@@ -1,5 +1,5 @@
 export EDITOR="subl -w"
-
+ulimit -n 8192
 # Circumvent https://github.com/direnv/direnv/issues/210
 #
 shell_session_update() { :; }
