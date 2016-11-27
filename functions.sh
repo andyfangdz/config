@@ -29,6 +29,8 @@ man() {
 }
 
 bootcamp() {
-    sudo /usr/sbin/bless -mount /Volumes/BOOTCAMP -setBoot  --nextonly  
+    sudo /usr/sbin/bless -mount /Volumes/BOOTCAMP -setBoot  --nextonly
     sudo /sbin/shutdown -r now
 }
+
+function anybar { echo -n $1 | nc -4u -w0 localhost ${2:-1738}; }
