@@ -1,5 +1,4 @@
-if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
-    source ~/.gnupg/.gpg-agent-info
+if [ -n "$(pgrep gpg-agent)" ]; then
     export GPG_AGENT_INFO
 else
     eval $(gpg-agent --daemon)
