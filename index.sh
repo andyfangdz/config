@@ -16,6 +16,7 @@ source ${script_dir}/java.sh
 
 source ${script_dir}/gpg.sh
 
-source ${script_dir}/petsc.sh
+# source ${script_dir}/petsc.sh
 
-source ${script_dir}/gba.sh
+# source ${script_dir}/gba.sh
+source ${script_dir}/man-utils.sh
