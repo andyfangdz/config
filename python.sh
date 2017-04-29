@@ -1,5 +1,5 @@
 alias ipy='jupyter qtconsole --ConsoleWidget.font_family="Consolas" --ConsoleWidget.font_size=13'
-export PATH=~/anaconda/bin:$PATH
+export PATH=~/anaconda/envs/py2/bin/:~/anaconda/bin:$PATH
 # activate_conda2() {
 #   export PATH=~/anaconda2/anaconda/bin:$PATH
 # }
