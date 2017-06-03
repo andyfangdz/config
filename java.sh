@@ -1,1 +1,3 @@
-export JAVA_HOME="`/usr/libexec/java_home -v 1.8`"
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/dezhi_fang/.sdkman"
+[[ -s "/Users/dezhi_fang/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/dezhi_fang/.sdkman/bin/sdkman-init.sh"
