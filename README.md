@@ -5,8 +5,7 @@
 ```bash
 git clone git@github.com:andyfangdz/config.git dotfiles
 ~/dotfiles/setup.sh
-rm ~.zshrc
-ln ~/dotfiles/index.sh ~/.zshrc
+echo "source ${HOME}/dotfiles/index.sh" > .zshrc
 ```
 
 
