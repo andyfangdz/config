@@ -1,4 +1,4 @@
-export EDITOR="code -w"
+export EDITOR="subl -w"
 ulimit -n 8192
 # Circumvent https://github.com/direnv/direnv/issues/210
 #
