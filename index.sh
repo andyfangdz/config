@@ -27,3 +27,4 @@ export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 source ${script_dir}/vendor/fzf.zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting
+source ${script_dir}/java.sh
