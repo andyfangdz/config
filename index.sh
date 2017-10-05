@@ -14,7 +14,6 @@ source ${script_dir}/paths.sh
 source ${script_dir}/node.sh
 source ${script_dir}/python.sh
 source ${script_dir}/ruby.sh
-source ${script_dir}/java.sh
 source ${script_dir}/golang.sh
 
 source ${script_dir}/gpg.sh
@@ -26,5 +25,7 @@ PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 source ${script_dir}/vendor/fzf.zsh
 
+antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
+
 source ${script_dir}/java.sh

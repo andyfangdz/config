@@ -3,6 +3,8 @@ antigen use oh-my-zsh
 antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 
 antigen bundle <<EOBUNDLES
+    fabric
+    sublime
     git
     web-search
     git-flow
@@ -10,9 +12,10 @@ antigen bundle <<EOBUNDLES
     lukechilds/zsh-better-npm-completion
     battery
     osx
+    brew
+    brew-cask
     node
     web-search
-    zsh-users/zsh-autosuggestions
     zsh-users/zsh-completions
     command-not-found
 EOBUNDLES
