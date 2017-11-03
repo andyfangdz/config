@@ -9,3 +9,4 @@ alias git="hub"
 
 alias myc="cc \$(<$HOME/dotfiles/flags/common) \$(<$HOME/dotfiles/flags/cflags)"
 alias myc++="c++ \$(<$HOME/dotfiles/flags/common) \$(<$HOME/dotfiles/flags/cxxflags)"
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'

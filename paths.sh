@@ -4,3 +4,4 @@ export PATH=~/.local/bin:$PATH
 export PATH="$PATH:`yarn global bin`"
 export PATH="/Users/andy/build/flutter/bin:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
