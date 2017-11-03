@@ -1,7 +1,7 @@
 #!/bin/bash
 
 script_dir=$(dirname $0)
-
+source ${script_dir}/utils.sh
 source ${script_dir}/vendor/antigen.1.4.1.zsh
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 antigen init ${script_dir}/.antigenrc
