@@ -16,7 +16,7 @@ source ${script_dir}/python.sh
 source ${script_dir}/ruby.sh
 source ${script_dir}/golang.sh
 
-source ${script_dir}/gpg.sh
+# source ${script_dir}/gpg.sh
 source ${script_dir}/man-utils.sh
 
 # iTerm integration

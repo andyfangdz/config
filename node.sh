@@ -7,4 +7,5 @@
 [[ -f /Users/andy/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/andy/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh
 
 export PATH="$HOME/.nodenv/shims:$PATH"
+eval "$(nodenv init -)"
 # export PATH="$(yarn global bin):$PATH"
