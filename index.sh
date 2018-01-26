@@ -5,7 +5,7 @@ script_dir=$(dirname $0)
 fpath+=${script_dir}/completions
 
 source ${script_dir}/utils.sh
-source ${script_dir}/vendor/antigen.1.4.1.zsh
+source ${script_dir}/vendor/antigen.zsh
 export SPACESHIP_PROMPT_ADD_NEWLINE=false
 antigen init ${script_dir}/.antigenrc
 
@@ -28,7 +28,7 @@ PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 source ${script_dir}/vendor/fzf.zsh
 
+source ${script_dir}/java.sh
+
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
-
-source ${script_dir}/java.sh

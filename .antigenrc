@@ -20,5 +20,4 @@ antigen bundle <<EOBUNDLES
     command-not-found
 EOBUNDLES
 
-
 antigen apply
