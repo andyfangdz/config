@@ -29,6 +29,3 @@ export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
 source ${script_dir}/vendor/fzf.zsh
 
 source ${script_dir}/java.sh
-
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
